@@ -14,7 +14,7 @@ implementando una arquitectura event-driven donde se desacoplan servicios median
 
 ---
 
-## Tecnologias utilizadas / Requisitos (estan marcados con ❗)
+## Tecnologias utilizadas / Requisitos (están marcados con ❗)
 
 - Java 17+ ❗
 - Maven ❗
@@ -88,12 +88,14 @@ implementando una arquitectura event-driven donde se desacoplan servicios median
 ## Comandos importantes
 
 ### Clonar repo
+
 ```bash
 git clone https://github.com/NicoToro25/ARCN-Event-Driven-LAB4.git
 cd event ARCN-Event-Driven-LAB4
 ```
 
 ### Levantar RabbitMQ
+
 ```bash
 docker run -d --name rabbitmq \
 -p 5672:5672 \
@@ -102,6 +104,7 @@ rabbitmq:3-management
 ```
 
 ### Acceder al panel de RabbitMQ
+
 ```bash
 http://localhost:15672
 
@@ -112,13 +115,14 @@ Contraseña: guest
 ```
 
 ### Ejecutar el Producer
+
 ```bash
 cd producer
 mvn spring-boot:run
 ```
 
-
 ### Ejecutar el Consumer
+
 ```bash
 En otra terminal:
 
@@ -127,9 +131,11 @@ mvn spring-boot:run
 ```
 
 ### Probar el sistema
+
 ```bash
 curl -X POST http://localhost:8080/event
 ```
+
 ---
 
 ## Imágenes mostrando el correcto funcionamiento
