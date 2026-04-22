@@ -130,3 +130,26 @@ mvn spring-boot:run
 ```bash
 curl -X POST http://localhost:8080/event
 ```
+---
+
+## Imágenes mostrando el correcto funcionamiento
+
+---
+
+### RabbitMQ funcionando
+
+![RabbitMQ funcionando](images/RabbitMQ.png)
+
+---
+
+### Imagenes Docker funcionando
+
+![Docker images funcionando](images/docker-images.png)
+
+![Docker images funcionando](images/docker-images-dockehub.png)
+
+---
+
+### Contenedores funcionando
+
+![Contenedores funcionando](images/contenedores-funcionando.png)
